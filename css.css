@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background: url(./img/banner/BG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.blog-1 .col-span-3 .box,
+header .main-box .menu ul li{
+    -webkit-animation: glow 2s infinite;
+    -moz-animation: glow 2s infinite;
+    -o-animation: glow 2s infinite;
+    animation: glow 2s infinite;
+}
+@keyframes glow {
+    0% {
+        -webkit-box-shadow: 0 0 4px #00fbff;
+    }
+    50% {
+        -webkit-box-shadow: 0 0 15px #0000ff;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 4px #00fbff;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    header .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    header .main-box .open-menu,
+    header .main-box .menu .close-menu{
+        display: block;
+    }
+    header .main-box .menu{
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        transition: 0.2s;
+        overflow-x: hidden;
+        z-index: 200;
+    }
+    header .main-box .menu ul li{
+        width: 100%;
+    }
+    header .main-box .menu ul li a{
+        color: #000000;
+    }
+
+    header .text-banner{
+        width: 100%;
+        padding: 5px !important;
+    }
+    header .text-banner h1{
+        font-size: 22px;
+    }
+    header .text-banner p{
+        font-size: 18px;
+        padding: 0px !important;
+    }
+    header .text-banner img{
+        width: 120px;
+    }
+    header .text-banner .link img{
+        width: 150px;
+    }
+    .blog .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    .blog .main-box h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .blog .main-box .images{
+        width: 100%;
+    }
+    .blog .main-box h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .blog .main-box p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .blog .main-box .blog-grid{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .main-box .blog-grid .col-span-4{
+        width: 95%;
+        margin: 5px auto;
+    }
+    .blog .main-box .blog-grid .col-span-4 .box .des h6{
+        font-size: 14px;
+    }
+    footer .main-box{
+        width: 100%;
+        padding: 5px !important;
+        display: inline-block;
+    }
+    footer .main-box .col-span-3{
+        width: 100%;
+    }
+    footer .main-box .col-span-3 h1{
+        font-size: 17px;
+        text-align: center;
+    }
+    footer .main-box .col-span-3 p{
+        font-size: 14px;
+        text-align: center;
+    }
+    footer .main-box .col-span-3 ul li{
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    header .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    header .main-box .open-menu,
+    header .main-box .menu .close-menu{
+        display: block;
+    }
+    header .main-box .menu{
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        transition: 0.2s;
+        overflow-x: hidden;
+        z-index: 200;
+    }
+    header .main-box .menu ul li{
+        width: 100%;
+    }
+    header .main-box .menu ul li a{
+        color: #000000;
+    }
+
+    header .text-banner{
+        width: 100%;
+        padding: 5px !important;
+    }
+    header .text-banner h1{
+        font-size: 22px;
+    }
+    header .text-banner p{
+        font-size: 18px;
+        padding: 0px !important;
+    }
+    header .text-banner img{
+        width: 120px;
+    }
+    header .text-banner .link img{
+        width: 150px;
+    }
+    .blog .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    .blog .main-box h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .blog .main-box .images{
+        width: 100%;
+    }
+    .blog .main-box h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .blog .main-box p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .blog .main-box .blog-grid{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .main-box .blog-grid .col-span-4{
+        width: 50%;
+        float: left;
+        margin: 5px 0px;
+    }
+    .blog .main-box .blog-grid .col-span-4 .box{
+        width: 95%;
+        margin: auto;
+    }
+    .blog .main-box .blog-grid .col-span-4 .box .des h6{
+        font-size: 15px;
+    }
+    footer .main-box{
+        width: 100%;
+        padding: 5px !important;
+        display: inline-block;
+    }
+    footer .main-box .col-span-3{
+        width: 50%;
+        float: left;
+    }
+    footer .main-box .col-span-3 h1{
+        font-size: 17px;
+        text-align: center;
+    }
+    footer .main-box .col-span-3 p{
+        font-size: 14px;
+        text-align: center;
+    }
+    footer .main-box .col-span-3 ul li{
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    
+}
